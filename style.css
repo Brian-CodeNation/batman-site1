@@ -1,0 +1,49 @@
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(47, 45, 45);
+    margin: -10px;
+}
+
+#nav a {
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(229, 223, 223);
+}
+
+body {
+    background-color: #f5b32f;
+}
+
+.side-by-side {
+    display: flex;
+    padding-top: 30px;
+    color: #1c1c1c;
+    /* border: 2px solid red; */
+}
+
+.side-by-side img {
+    width: 50%;
+}
+
+.side-by-side p {    
+    margin: 20px;
+    border: 2px solid yellow;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.cards img {
+    width: 120px;
+}
